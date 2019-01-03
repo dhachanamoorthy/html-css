@@ -1,0 +1,90 @@
+h1{
+    color:blue;
+    font-size: 50px;
+    font-family:sans-serif;
+    font-weight: 300;  
+    text-align: center;
+    padding:20px;
+    text-shadow: 2px 0.5px blue;
+    position: absolute;
+    left:550px;
+}
+video{
+    max-width: 100%;
+    max-height: 100%;
+    position: fixed;
+}
+body{
+   background-image:url(bg.png);
+    background-size: 100% 100%;
+    /* -webkit-animation:colorchange 10s;
+    animation-iteration-count: infinite;*/
+    
+}
+@-webkit-keyframes colorchange{
+    0%{background: black}
+    50%{background:brown}
+    100%{background: black}
+}
+#block1{
+    position: fixed;
+    align-items:center;
+    top:142px;
+    width:570px;
+    height: 275px;
+    background-color: black;
+    left:141px;
+    border: 2px red;
+    /*outline-style:groove;
+    outline-width: 5px;*/
+    border-radius: 15px;
+    
+}
+#block2{
+    align-items:center;
+    width:570px;
+    height:275px;
+    background-color: black;
+    right:134px;
+    position: fixed;
+    z-index:1;
+    top:142;
+    overflow-x: hidden;
+    border: 2px red;
+    border-radius: 15px;
+    
+}
+input{
+    color:lightblue;
+    border-color:blue;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 3px;
+    background-color: black;
+    display:inline-block;
+    width:60%;
+    float: right;
+}
+h3{
+    color:blue;
+    font-family:sans-serif;
+    font-weight: 100px;
+    background-color: rosybrown;   
+    text-align: center;
+    padding:2px;
+    text-shadow: 1.5px 0.5px blue;
+}
+label{
+    color:lightblue;
+    font-family:sans-serif;
+    text-shadow: 1px 0.5px blue;
+    display:inline-block;
+    margin: 10px 10px;
+    clear:both;
+    width: 25%;
+}
+button{
+    color:burlywood;
+    padding: 10px 40px;
+    align-content: center;
+}
